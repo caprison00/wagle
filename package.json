@@ -1,0 +1,14 @@
+{
+  "name": "wagle",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "mock": "pnpm --filter @wagle/collector mock",
+    "start:collector": "pnpm --filter @wagle/collector start"
+  }
+}
