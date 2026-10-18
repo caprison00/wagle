@@ -1,0 +1,14 @@
+# 비밀값 (CLAUDE.md 6절)
+.env*
+!.env.example
+
+# 의존성·빌드
+node_modules/
+.next/
+dist/
+.vercel/
+.turbo/
+
+# OS·에디터
+.DS_Store
+*.log
