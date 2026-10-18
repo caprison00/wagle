@@ -1,0 +1,41 @@
+{
+  "code": 200,
+  "message": null,
+  "content": {
+    "data": [
+      {
+        "liveId": 1001,
+        "liveTitle": "모의 방송 A",
+        "liveThumbnailImageUrl": "https://example.com/mock/thumb-a.jpg",
+        "concurrentUserCount": 1234,
+        "openDate": "2026-10-18 21:03:11",
+        "adult": false,
+        "tags": ["모의", "테스트"],
+        "categoryType": "GAME",
+        "liveCategory": "Mock_Game",
+        "liveCategoryValue": "모의 게임",
+        "channelId": "mock-channel-a",
+        "channelName": "모의채널A",
+        "channelImageUrl": "https://example.com/mock/channel-a.png"
+      },
+      {
+        "liveId": 2001,
+        "liveTitle": "모의 방송 B",
+        "liveThumbnailImageUrl": null,
+        "concurrentUserCount": 56,
+        "openDate": "2026-10-18 22:40:00",
+        "adult": false,
+        "tags": [],
+        "categoryType": "ETC",
+        "liveCategory": "talk",
+        "liveCategoryValue": "talk",
+        "channelId": "mock-channel-b",
+        "channelName": "모의채널B",
+        "channelImageUrl": null
+      }
+    ],
+    "page": {
+      "next": "mock-next-token"
+    }
+  }
+}
